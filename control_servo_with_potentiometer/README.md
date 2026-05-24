@@ -1,33 +1,27 @@
-# Gamma-Corrected LED Brightness Control
+# Servo Control Using Potentiometer
 
 ## Overview
-This project controls LED brightness using PWM (Pulse Width Modulation) and serial input from the user.
+This project controls a servo motor using a potentiometer.
 
-The user enters a value between 0 and 9 in the Serial Monitor, and the Arduino converts it into a PWM signal to adjust the LED brightness.
+The user rotates the potentiometer, and the Arduino reads its analog value and converts it into a servo angle.
 
-To make brightness changes appear more natural to the human eye, the project uses gamma correction instead of linear mapping.
+The servo then moves based on the potentiometer position.
 
 ---
 
 ## Components Used
 - Arduino board
-- Red LED
-- 1kΩ resistor
+- Potentiometer
+- Servo motor
 - Jumper wires
 - Breadboard
 
 ---
 
-## PWM Range
-| User Input | PWM Output |
-|---|---|
-| 0 | 0 |
-| 1 | 2 |
-| 2 | 9 |
-| 3 | 23 |
-| 4 | 42 |
-| 5 | 69 |
-| 6 | 105 |
-| 7 | 150 |
-| 8 | 198 |
-| 9 | 255 |
+## How It Works
+The potentiometer changes the input voltage sent to the Arduino.
+
+The Arduino reads this analog value and maps it to a servo angle, between 0° and 180°.
+
+The servo motor then rotates to the corresponding position.
+

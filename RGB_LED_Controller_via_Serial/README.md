@@ -1,33 +1,42 @@
-# Gamma-Corrected LED Brightness Control
+# RGB LED Color Control
 
 ## Overview
-This project controls LED brightness using PWM (Pulse Width Modulation) and serial input from the user.
+This project controls an RGB LED using serial input from the user.
 
-The user enters a value between 0 and 9 in the Serial Monitor, and the Arduino converts it into a PWM signal to adjust the LED brightness.
-
-To make brightness changes appear more natural to the human eye, the project uses gamma correction instead of linear mapping.
+The user enters a color name in the Serial Monitor, and the Arduino converts it into red, green, and blue values to display the selected color.
 
 ---
 
 ## Components Used
 - Arduino board
-- Red LED
-- 1kΩ resistor
+- RGB LED
+- 1kΩ resistors
 - Jumper wires
 - Breadboard
 
 ---
 
-## PWM Range
-| User Input | PWM Output |
-|---|---|
-| 0 | 0 |
-| 1 | 2 |
-| 2 | 9 |
-| 3 | 23 |
-| 4 | 42 |
-| 5 | 69 |
-| 6 | 105 |
-| 7 | 150 |
-| 8 | 198 |
-| 9 | 255 |
+## Features
+- Serial communication with the Arduino
+- RGB color mixing
+- User-controlled color selection
+- Multiple predefined colors
+
+---
+
+## Supported Colors
+- Red
+- Green
+- Blue
+- Cyan
+- Magenta
+- Yellow
+- Orange
+- White
+
+
+## How It Works
+The Arduino waits for a color name entered through the Serial Monitor.
+
+When a valid color is received, the program turns specific RGB LED pins on or off to create the selected color.
+
