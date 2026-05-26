@@ -21,7 +21,7 @@ This creates a simple toggle-based color selection system.
 - Breadboard
 - RGB LED
 - 3 push buttons
-- 6 × 1kΩ resistors
+- 3 × 1kΩ resistors
 - Jumper wires
 
 ---
