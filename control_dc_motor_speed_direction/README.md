@@ -16,6 +16,7 @@ A simple Arduino project for controlling a DC motor using a potentiometer for sp
 - Breadboard
 - Push buttons
 - Potentiometer
+- Small fan attached to the motor shaft, helps visualise rotation
 
 ## Wiring
 1. Connect the TA6586 driver to the Arduino and motor.
