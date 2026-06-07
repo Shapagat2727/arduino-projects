@@ -25,3 +25,7 @@ The Arduino reads this analog value and maps it to a servo angle, between 0° an
 
 The servo motor then rotates to the corresponding position.
 
+
+
+## Demo
+![Demo](./demo.gif)

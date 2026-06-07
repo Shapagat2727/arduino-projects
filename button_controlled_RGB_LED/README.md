@@ -29,3 +29,7 @@ This creates a simple toggle-based color selection system.
 ## How It Works
 
 The Arduino continuously checks the state of each button using `INPUT_PULLUP`.
+
+
+## Demo
+![Demo](./demo.gif)

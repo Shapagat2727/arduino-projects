@@ -21,3 +21,7 @@ A compact Arduino-based altimeter designed for portable use. This project reads 
 4. Press the button once to set the base pressure.
 5. Press the button again anytime to recalculate altitude from the stored base pressure.
 
+
+
+## Demo
+![Demo](./demo.gif)

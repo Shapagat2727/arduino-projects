@@ -15,3 +15,8 @@ This project reads a photoresistor value using an Arduino and uses that input to
 1. Upload the Arduino sketch to your board.
 2. Open the Serial Monitor to view the photoresistor value.
 3. Adjust the light level over the photoresistor and observe the servo movement.
+
+
+
+## Demo
+![Demo](./demo.gif)

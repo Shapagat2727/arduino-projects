@@ -21,3 +21,8 @@ This project measures distance using an ultrasonic sensor and displays the readi
 1. Connect the hardware components as per the circuit diagram
 2. Upload the code to your Arduino
 3. Press the button to display the current distance reading on the OLED
+
+
+
+## Demo
+![Demo](./demo.gif)

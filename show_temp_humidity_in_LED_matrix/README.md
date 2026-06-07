@@ -27,3 +27,7 @@ This Arduino project reads temperature and humidity from a sensor and displays t
 4. Upload the Arduino sketch.
 5. Press the button to observe temperature and humidity and heat index on the LED matrix.
 
+
+
+## Demo
+![Demo](./demo.gif)
